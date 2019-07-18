@@ -17,6 +17,7 @@ public class MainActivity extends BaseActivity {
     }
 
     private void initView() {
+
         test = (Button) findViewById(R.id.test);
         test.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,4 +32,5 @@ public class MainActivity extends BaseActivity {
     protected void onDestroy() {
         super.onDestroy();
     }
+
 }
